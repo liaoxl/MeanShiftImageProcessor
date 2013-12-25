@@ -110,10 +110,12 @@ Sample code:
 		return 0;
 	}
 
-And results
+-----------------------------
 
-<img src="moondark.jpg" align="left" />
-<img src="Meanshift.png" align="right" />
+### 4. Results
+
+<img src="moondark.jpg" align="center" />
+<img src="Meanshift.png" align="center" />
 
 
 
