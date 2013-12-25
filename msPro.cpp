@@ -69,6 +69,7 @@ int main(int argc, char* argv[])
     }
 
     imshow("Meanshift", dst_img);
+	imwrite("Meanshift.png", dst_img);
     waitKey(0);
 
 //    assert(label_count==num_Regions);
