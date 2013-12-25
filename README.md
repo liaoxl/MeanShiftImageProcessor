@@ -53,7 +53,7 @@ To obtain the output call:
 					  data point in the image to a given mode, and also
 					  the number of points in the image correlating to each mode.
 
-NOTE:
+##### NOTE:
 -----
 
 The modes returned by GetRegions are not in the RGB space. If DefineImage was used, they are in the LUV space. The modes may be converted from LUV to RGB (and visa versa) using the space conversion methods of the msImageProcessor class:
@@ -91,7 +91,7 @@ A general kernel can be used to perform mean shift filtering and segmentation by
 
 DefineImage, used to define the input image when performing image segmentation or filtering, defines a Uniform kernel having two subspaces (one spatial (x,y) and one range (L,U,V)) each subspace having bandwidths sigmaS and sigmaR respectively. By skimming the method definition one may get an idea of how to define a general kernel.
 
-NOTE:
+##### NOTE:
 ----
 
 For data that is defined on a lattice, it is always assumed that the spatial domain is treated as a single subspace. Also, DefineKernel() must be called *after* DefineImage() when these methods are used together.
